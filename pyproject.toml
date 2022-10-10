@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "sacti"
+version = "0.1.0"
+description = ""
+authors = ["TNO"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+liboqs-python = {git = "https://github.com/open-quantum-safe/liboqs-python.git", rev = "0.7.1"}
+"tno.mpc.communication" = "^2.0.2"
+"tno.mpc.encryption-schemes.shamir" = "^0.1.1"
+pymisp = "^2.4.159"
+cryptography = "^37.0.4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

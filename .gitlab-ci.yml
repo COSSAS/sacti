@@ -1,0 +1,7 @@
+variables:
+  MODULE: .
+
+include:
+  - project: 'just-ci/templates'
+    file: 'templates/python.yml'
+    ref: 'v5.2.1'

@@ -1,0 +1,6 @@
+tno.mpc.communication==2.0.2
+tno.mpc.encryption_schemes.shamir==0.1.1
+pymisp==2.4.159
+git+https://github.com/open-quantum-safe/liboqs-python.git@0.7.1#egg=liboqs-python
+cryptography==37.0.4
+pytest

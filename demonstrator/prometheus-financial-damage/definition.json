@@ -1,0 +1,18 @@
+{
+    "attributes": {
+        "damage": {
+            "description": "Financial damage computed through Prometheus.",
+            "misp-attribute": "float",
+            "disable_correlation": true,
+            "ui-priority": 0
+        }
+    },
+    "description": "Financial damage computed through Prometheus.",
+    "meta-category": "prometheus",
+    "name": "prometheus-financial-damage",
+    "required": [
+        "damage"
+    ],
+    "uuid": "9986b056-7f2c-4c1b-b04e-a6b5c4443068",
+    "version": 1
+}
