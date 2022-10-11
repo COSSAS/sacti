@@ -3,11 +3,13 @@
 
 
 ![https://cossas-project.org](https://img.shields.io/badge/website-cossas--project.org-orange)
-![Commits](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/commits.svg?job=badge:commits)
+<!-- ![Commits](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/commits.svg?job=badge:commits) -->
 ![Pipeline status](https://gitlab.com/cossas/sacti/badges/master/pipeline.svg)
-![Version](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/version.svg?job=badge:version)
-![License: MPL2.0](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/license.svg?job=badge:license)
-![Code-style](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/codestyle.svg?job=badge:codestyle)
+<!-- ![Version](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/version.svg?job=badge:version) -->
+![License: MPL2.0](https://img.shields.io/badge/license-MPL2.0-orange)
+<!-- ![License: MPL2.0](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/license.svg?job=badge:license) -->
+<!-- ![Code-style](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/codestyle.svg?job=badge:codestyle) -->
+![Code-style](https://img.shields.io/badge/codestyle-black-black)
 </div></a>
 
 <hr style="border:2px solid gray"> </hr>
@@ -28,7 +30,7 @@ More information can be found on [cossas-project.org](https://cossas-project.org
 To install SACTI, you'll need a running MISP instance
 
 ### Setup MISP
-First install MISP in a Docker container
+First, install MISP in a Docker container
 
 ```console
 git clone https://github.com/MISP/misp-docker
@@ -61,7 +63,7 @@ docker-compose up
 - The [events list](http://127.0.0.1/events/index) will now populate (it might take a while to fetch everything).
 - Alternatively, you can create dummy events in the event list.
 
-## Install liboqs
+### Install liboqs
 SACTI depends on `liboqs` for its operations, so you need to install that.
 
 - Build `liboqs` according to the [liboqs building instructions](https://github.com/open-quantum-safe/liboqs#linuxmacos) with shared library support enabled (add `-DBUILD_SHARED_LIBS=ON` to the cmake command), followed (optionally) by a `sudo ninja install` to ensure that the shared library is visible system-wide (by default it installs under `/usr/local/include` and `/usr/local/lib` on Linux/macOS).
