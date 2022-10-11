@@ -3,12 +3,8 @@
 
 
 ![https://cossas-project.org](https://img.shields.io/badge/website-cossas--project.org-orange)
-<!-- ![Commits](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/commits.svg?job=badge:commits) -->
 ![Pipeline status](https://gitlab.com/cossas/sacti/badges/master/pipeline.svg)
-<!-- ![Version](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/version.svg?job=badge:version) -->
 ![License: MPL2.0](https://img.shields.io/badge/license-MPL2.0-orange)
-<!-- ![License: MPL2.0](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/license.svg?job=badge:license) -->
-<!-- ![Code-style](https://gitlab.com/cossas/sacti/-/jobs/artifacts/master/raw/ci_badges/codestyle.svg?job=badge:codestyle) -->
 ![Code-style](https://img.shields.io/badge/codestyle-black-black)
 </div></a>
 
