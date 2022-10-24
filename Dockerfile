@@ -1,5 +1,6 @@
 FROM openquantumsafe/python:7e08920
-
+USER root
+RUN apk add git
 COPY sacti sacti
-COPY pyproject.toml .
-RUN pip3 install . --trusted-host pypi.python.org
+COPY requirements.txt .
+RUN pip3 install -r requirements.txt
