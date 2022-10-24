@@ -1,7 +1,2 @@
-variables:
-  MODULE: .
-
 include:
-  - project: 'just-ci/templates'
-    file: 'templates/python.yml'
-    ref: 'v5.2.1'
+  - remote: https://just-ci.gitlab.io/jobs/v6.10.1/templates/container/python.yml
